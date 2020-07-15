@@ -1,0 +1,45 @@
+.app {
+  font-family: sans-serif;
+}
+
+.users-container {
+  display: grid;
+  grid-template-columns: 200px 1fr;
+  grid-column-gap: 16px;
+  margin-bottom: 32px;
+}
+
+.user-item {
+  background: #eee;
+  padding: 8px 16px;
+  cursor: pointer;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.user-item-selected {
+  background: forestgreen;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+input[type='text'] {
+  padding: 12px;
+  font-size: 16px;
+}
+
+.add-btn {
+  background-color: #4caf50; /* Green */
+  border: none;
+  color: white;
+  padding: 14px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button.disabled {
+  background: lightgray;
+  color: grey;
+  cursor: not-allowed;
+}

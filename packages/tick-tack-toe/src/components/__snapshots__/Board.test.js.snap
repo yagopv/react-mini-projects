@@ -1,0 +1,66 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Board /> should allow to complete the game 1`] = `
+<div>
+  <div
+    class="status"
+    data-testid="status"
+  >
+    Next player: p1 (X)
+  </div>
+  <div
+    class="grid"
+  >
+    <button
+      class="square"
+      data-testid="square"
+    />
+    <button
+      class="square"
+      data-testid="square"
+    />
+    <button
+      class="square"
+      data-testid="square"
+    />
+    <button
+      class="square"
+      data-testid="square"
+    />
+    <button
+      class="square"
+      data-testid="square"
+    />
+    <button
+      class="square"
+      data-testid="square"
+    />
+    <button
+      class="square"
+      data-testid="square"
+    />
+    <button
+      class="square"
+      data-testid="square"
+    />
+    <button
+      class="square"
+      data-testid="square"
+    />
+  </div>
+  <div
+    class="buttons"
+  >
+    <button
+      class="btn"
+    >
+      Reset
+    </button>
+    <button
+      class="btn"
+    >
+      Enter Players
+    </button>
+  </div>
+</div>
+`;

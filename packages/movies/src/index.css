@@ -1,0 +1,94 @@
+@import-normalize;
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+main {
+  display: flex;
+  min-height: 100vh;
+}
+
+aside {
+  background: #ccc;
+  padding: 20px 10px;
+  border-right: 3px solid #ddd;
+  max-width: 250px;
+}
+
+section {
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  flex: 1;
+  padding: 20px;
+}
+
+.movie {
+  border: 1px solid #ccc;
+  margin: 1%;
+  text-align: center;
+}
+
+.movie-info {
+  padding: 10px;
+}
+
+.movie-image {
+  max-width: 100%;
+  height: 250px;
+  background-size: cover;
+}
+
+.movie p {
+  height: 30px;
+}
+
+.movie small {
+  height: 20px;
+}
+
+input[type='text'] {
+  padding: 10px 0;
+  outline: none;
+  border: none;
+  background: transparent;
+  border-bottom: 1px solid #000;
+  font-size: 1em;
+}
+
+button {
+  cursor: pointer;
+  outline: none;
+  background: #222;
+  color: #fff;
+  margin-left: 10px;
+  height: 35px;
+  font-size: 1em;
+}
+
+hr {
+  margin: 15px 0;
+}
+
+.radio {
+  margin: 8px 0;
+}
+
+.radio input {
+  margin-right: 5px;
+}
+
+.radio .selected {
+  font-weight: bold;
+}
