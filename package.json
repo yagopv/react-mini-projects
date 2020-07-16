@@ -5,7 +5,24 @@
     "packages/*"
   ],
   "scripts": {
-    "bootstrap": "lerna bootstrap --use-workspaces"
+    "bootstrap": "lerna bootstrap --use-workspaces",
+    "chat-app": "lerna exec --scope @react-mini-projects/chat-app -- PORT=3001 yarn start",
+    "clock": "lerna exec --scope @react-mini-projects/clock -- PORT=3002 yarn start",
+    "clock-with-hooks": "lerna exec --scope @react-mini-projects/clock-with-hooks -- PORT=3003 yarn start",
+    "context-with-hooks": "lerna exec --scope @react-mini-projects/context-with-hooks -- PORT=3004 yarn start",
+    "core-concepts": "lerna exec --scope @react-mini-projects/core-concepts -- PORT=3005 yarn start",
+    "counter": "lerna exec --scope @react-mini-projects/counter -- PORT=3006 yarn start",
+    "crypto-monitor": "lerna exec --scope @react-mini-projects/crypto-monitor -- PORT=3007 yarn start",
+    "hack-a-note": "lerna exec --scope @react-mini-projects/hack-a-note -- PORT=3008 yarn start",
+    "hooks": "lerna exec --scope @react-mini-projects/hooks -- PORT=3009 yarn start",
+    "movies": "lerna exec --scope @react-mini-projects/movies -- PORT=3010 yarn start",
+    "react-file-upload": "lerna exec --scope @react-mini-projects/react-file-upload -- PORT=3011 yarn start",
+    "router": "lerna exec --scope @react-mini-projects/router -- PORT=3012 yarn start",
+    "sockets": "lerna exec --scope @react-mini-projects/sockets -- PORT=3013 yarn start",
+    "task-list": "lerna exec --scope @react-mini-projects/task-list -- PORT=3014 yarn start",
+    "tick-tack-toe": "lerna exec --scope @react-mini-projects/tick-tack-toe -- PORT=3015 yarn start",
+    "todos": "lerna exec --scope @react-mini-projects/todos -- PORT=3016 yarn start",
+    "todos-with-hooks": "lerna exec --scope @react-mini-projects/todos-with-hooks -- PORT=3017 yarn start"
   },
   "devDependencies": {
     "lerna": "^3.22.1"
